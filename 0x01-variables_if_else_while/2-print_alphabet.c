@@ -1,12 +1,17 @@
 #include <stdio.h>
 /**
-* main - entry point for it
+* main - print a to z lowercase
+*
+* Description - Print a-z lower case
+* Return: 0
 */
 int main(void)
 {
-	for (int A = 'a'; A <= 'z'; A++)
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(A);
+		putchar(ch);
 	}
 		putchar('\n');
+	return (0);
 }
