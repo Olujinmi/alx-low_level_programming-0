@@ -1,12 +1,12 @@
 #include <stdio.h>
-/**                                                                                                                  
-* main - entry point                                                                                                 
-* Return: Always 0 (Success)                                                                                         
+/**
+* main - entry point for it
 */
-int main()
+int main(void)
 {
-	for(int A = 'a'; A <= 'z'; A++)
+	for (int A = 'a'; A <= 'z'; A++)
 	{
 		putchar(A);
 	}
+		putchar('\n');
 }
