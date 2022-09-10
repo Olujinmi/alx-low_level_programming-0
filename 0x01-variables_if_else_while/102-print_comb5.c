@@ -10,14 +10,16 @@ int main(void)
 	int j;
 	int k;
 
-	for (j = 0; j <= 9; j++)
+	for (j = 0; j <= 98; j++)
 	{
-		for (k = 0; k <= 9; k++)
+		for (k = j + 1; k <= 99; k++)
 		{
-			putchar(j + '0');
-			putchar(k + '0');
-
-			if (j == 8 && k == 9)
+			putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
+			putchar(' ');
+			putchar((k / 10) + '0');
+			putchar((k % 10) + '0');
+				if (j == 98 && k == 99)
 				continue;
 		putchar(',');
 		putchar(' ');
