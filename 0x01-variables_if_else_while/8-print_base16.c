@@ -7,11 +7,15 @@
 */
 int main(void)
 {
-	int j;
+	char j;
 
-	for (j = 0; j < 16; j++)
+	for (j = '0'; j < '10'; j++)
 	{
-		printf("%d", j);
+		putchar(j);
+	}
+	for (j = 'a'; j < 'g'; j++)
+	{
+		putchar(j);
 	}
 		putchar('\n');
 	return (0);
