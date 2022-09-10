@@ -5,13 +5,19 @@
 * Description - Print a-z lower case
 * Return: 0
 */
-int main(void)
+int main()
 {
 	int j;
 
-	for (j = 0; j <= 9; j++)
+	for (j = 0; j <= 8; j++)
 	{
-		printf("%d, ", j);
+		putchar(j + '0');
+		if (j == 9)
+			continue;
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 		putchar('\n');
 	return (0);
