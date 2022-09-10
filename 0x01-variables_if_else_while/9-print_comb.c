@@ -5,11 +5,11 @@
 * Description - Print a-z lower case
 * Return: 0
 */
-int main()
+int main(void)
 {
 	int j;
 
-	for (j = 0; j <= 8; j++)
+	for (j = 0; j <= 9; j++)
 	{
 		putchar(j + '0');
 		if (j == 9)
