@@ -2,7 +2,7 @@
 
 /**
 * print_numbers - prints 0 -9
-* @i: numbers
+*
 * Return: to the void
 */
 
