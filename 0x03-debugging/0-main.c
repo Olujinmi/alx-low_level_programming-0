@@ -2,6 +2,8 @@
 
 /**
 * main - tests if number is positive  or negative
+* @i - number
+* positive_or_negative - int
 * Return: 0
 */
 
