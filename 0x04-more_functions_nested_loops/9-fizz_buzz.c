@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	int n = 0;
+	int n;
 
-	while (n++ <= 100)
+	while (n++ <= 99)
 	{
 		if ((n % 3) == 0)
 		{
