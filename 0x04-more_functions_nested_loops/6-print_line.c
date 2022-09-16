@@ -9,6 +9,7 @@
 void print_line(int n)
 {
 	int i;
+	int n;
 
 	for (i = 0; i <= n; i++;)
 	{
